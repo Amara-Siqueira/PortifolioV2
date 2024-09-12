@@ -14,7 +14,7 @@ tablet 768px ate 992px
 grandes telas acima de 1200px
 */
 
-@media screen and (min-width:0px) and (max-width:1500px){
+@media screen and (min-width:350px) and (max-width:1500px){
 html,body{
     color:#755A24;
     background-color: black;
@@ -32,9 +32,9 @@ main{
     
     margin: auto;
     position: absolute;
-   left: 30%;
+   left: 29%;
    right: 30%;
-   transform:translateY(50vh)
+   transform:translateY(47vh)
     
 }
 p{
