@@ -13,12 +13,25 @@ cores #665B0E marrom
     background-color: black;
 
 }
+#burguer{
+    display: block;
+    text-align: center;
+}
+#burguer:hover{
+
+    cursor: pointer;
+    color: black;
+    background-color: #755A24;
+}
 h1{
     text-align: center;
 
 }
+menu{
+  display: none;  
+}
 ul{
-
+    
    list-style-type: none;
     display:inline;
 }
@@ -26,9 +39,19 @@ li{  padding: 15px;
     display: inline;
 }
 a{
-
     color:#ec923e ; 
     text-decoration: none;
+}
+a:hover{
+    border: black;
+    transition: .3s, border 2s;
+    transition: 1s;
+    border-radius: 10px;
+    color: black;
+    background-color: #e2b14f;
+}
+body{
+    background-image: url(../imagem/fundo\ capa.jpg);
 }
 main{
     padding: 10px;
@@ -38,10 +61,13 @@ main{
     color: #ec923e;
     background-color: black;
 }
+#p1{
+  
+}
 #perfil{
 
 display: inline;
-    width: 50px;
+    width: 70px;
 }
 .container{
      display: flex;
@@ -49,13 +75,24 @@ display: inline;
 #css{
     width: 70px;
 }
-#htmml{
-    width: 5px;
+#html{
+
+    width: 45px; 
+    display: inline-block;
 }
 #insta{
     width: 50px;
 }
-#GitHub{
+#insta:hover{
+    cursor: pointer;
+    border: black;
+    transition: .3s, border 2s;
+
+}
+
+
+#GithHub{
+    background-color: white;
     width: 50px;
 
 }
