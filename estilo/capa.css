@@ -14,7 +14,7 @@ tablet 768px ate 992px
 grandes telas acima de 1200px
 */
 
-@media screen and (min-width:375px) and (max-width:768px){
+@media screen and (min-width:0px) and (max-width:769px){
 html,body{
     color:#755A24;
     background-color: black;
