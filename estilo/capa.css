@@ -32,7 +32,7 @@ main{
     
     margin: auto;
     position: absolute;
-   left: 29%;
+   left: 20%;
    right: 30%;
    transform:translateY(47vh)
     
@@ -83,8 +83,8 @@ p{
     position: absolute;
    left: 30%;
    right: 30%;
-   transform:translateY(30vh)
-    
+   transform:translateY(30vh);
+   
 }
 p{
     font-family: "Playwrite CU", cursive;
