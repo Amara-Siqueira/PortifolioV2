@@ -11,27 +11,23 @@ cores #665B0E marrom
     header{
     color:#ec923e ;
     background-color: black;
-
 }
 #burguer{
     display: block;
     text-align: center;
 }
 #burguer:hover{
-
     cursor: pointer;
     color: black;
     background-color: #755A24;
 }
 h1{
     text-align: center;
-
 }
 menu{
   display: none;  
 }
 ul{
-    
    list-style-type: none;
     display:inline;
 }
@@ -62,10 +58,8 @@ main{
     background-color: black;
 }
 #p1{
-  
 }
 #perfil{
-
 display: inline;
     width: 70px;
 }
@@ -76,7 +70,6 @@ display: inline;
     width: 70px;
 }
 #html{
-
     width: 45px; 
     display: inline-block;
 }
@@ -87,13 +80,96 @@ display: inline;
     cursor: pointer;
     border: black;
     transition: .3s, border 2s;
-
 }
-
-
 #GithHub{
     background-color: white;
     width: 50px;
 
 }
+
+
+
+}
+@media screen and (min-width:1500px) {
+    header{
+        color:#ec923e ;
+        background-color: black;
+    }
+    #burguer{display: none;}
+    h1{
+        text-align: center;
+    }
+    menu{
+      display: block;  
+    }
+    ul{
+       list-style-type: none;
+        display:inline;
+    }
+    li{  padding: 15px;
+        display: inline;
+    }
+    a{
+        color:#ec923e ; 
+        text-decoration: none;
+    }
+    a:hover{
+        border: black;
+        transition: .3s, border 2s;
+        transition: 1s;
+        border-radius: 10px;
+        color: black;
+        background-color: #e2b14f;
+    }
+    body{
+        background-image: url(../imagem/fundo\ capa.jpg);
+    }
+    main{
+
+        font-size: 25pt;
+        padding: 10px;
+        text-align: justify;
+        margin: auto;
+        width: 85vw;
+       
+        color: #ec923e;
+        background-color: black;
+    }
+    #p1{
+    }
+    #perfil{
+    display: inline;
+        width: 20vw;
+    }
+    .container{
+         display: flex;
+    }
+    #css{
+        width: 20vw;
+    }
+    #html{
+        width: 15vw;
+        display: inline-block;
+    }
+    #insta{
+        width: 50px;
+    }
+    #insta:hover{
+        cursor: pointer;
+        border: black;
+        transition: .3s, border 2s;
+    }
+    #GithHub{
+        background-color: white;
+        width: 50px;
+    }
+    #h1{
+        background-size: contain;
+        background-position: center center  ;
+        background-image: url(../imagem/gol.jpeg);
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        color: black;
+        
+    }
 }
