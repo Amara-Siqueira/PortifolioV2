@@ -63,7 +63,7 @@ p{
 
 
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1500px) {
     html,body{
         color:#755A24;
         background-color: black;
@@ -95,7 +95,9 @@ p{
     transform: translateY(45vh);
         
 }
+
 #entrar{
+    color: black;
     display: block;
     position: absolute;
     left: 20%;
@@ -108,6 +110,7 @@ p{
      cursor: pointer;
       background-color: #e6b24a; 
 }
+
 }
 
 
