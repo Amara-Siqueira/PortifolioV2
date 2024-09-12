@@ -34,7 +34,7 @@ main{
     position: absolute;
    left: 20%;
    right: 30%;
-   transform:translateY(40vh)
+   transform:translateY(45vh)
     
 }
 p{
@@ -43,7 +43,7 @@ p{
     display: block;
     position: absolute;
     left: 40%;
-    transform: translateY(60vh);
+    transform: translateY(50vh);
         
 }
 #entrar{
