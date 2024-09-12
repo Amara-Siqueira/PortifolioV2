@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+/* font-family: "Playwrite CU", cursive*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Pequens telas ate 600px
+celulares de 600px ate 768px
+tablet 768px ate 992px
+grandes telas acima de 1200px
+*/
+
+@media screen and (min-width:400px) and (max-width:768px){
+html,body{
+    color:#755A24;
+    background-color: black;
+}
+main{
+    background-image:url(../imagem/fundo\ capa.jpg);
+   width: 100vw;    
+   height: 100vh;
+    
+}
+#msg{
+    font-family: "Playwrite CU", cursive;
+    font-size: 20pt;
+    display: block;
+    
+    margin: auto;
+    position: absolute;
+   left: 30%;
+   right: 30%;
+   transform:translateY(50vh)
+    
+}
+p{
+    font-family: "Playwrite CU", cursive;
+    font-size: 20pt;
+    display: block;
+    position: absolute;
+    left: 40%;
+    transform: translateY(55vh);
+        
+}
+#entrar{
+    display: block;
+    position: absolute;
+    left: 20%;
+    transform: translateY(63vh);
+    padding: 25px;
+    width: 70vw;
+    border-radius: 15px;
+}
+#entrar:hover{
+     cursor: pointer;
+      background-color: #e6b24a; 
+}
+
+}
+
+
+
