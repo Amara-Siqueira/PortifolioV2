@@ -14,7 +14,7 @@ tablet 768px ate 992px
 grandes telas acima de 1200px
 */
 
-@media screen and (min-width:0px) and (max-width:769px){
+@media screen and (min-width:0px) and (max-width:1500px){
 html,body{
     color:#755A24;
     background-color: black;
@@ -59,8 +59,55 @@ p{
      cursor: pointer;
       background-color: #e6b24a; 
 }
-
 }
 
+
+
+@media screen and (min-width:1200px) {
+    html,body{
+        color:#755A24;
+        background-color: black;
+    }
+    main{
+        background-image:url(../imagem/fundo\ capa.jpg);
+       width: 100vw;    
+       height: 100vh;
+}
+
+#msg{
+    font-family: "Playwrite CU", cursive;
+    font-size: 60pt;
+    display: block;
+    
+    margin: auto;
+    position: absolute;
+   left: 30%;
+   right: 30%;
+   transform:translateY(30vh)
+    
+}
+p{
+    font-family: "Playwrite CU", cursive;
+    font-size: 40pt;
+    display: block;
+    position: absolute;
+    left: 40%;
+    transform: translateY(45vh);
+        
+}
+#entrar{
+    display: block;
+    position: absolute;
+    left: 20%;
+    transform: translateY(63vh);
+    padding: 25px;
+    width: 70vw;
+    border-radius: 15px;
+}
+#entrar:hover{
+     cursor: pointer;
+      background-color: #e6b24a; 
+}
+}
 
 

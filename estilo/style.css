@@ -1,0 +1,62 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*
+cores #E67C16 amarelo
+cores #665B0E marrom
+*/
+@media screen and (min-width:0px) and (max-width:1500px) {
+    header{
+    color:#ec923e ;
+    background-color: black;
+
+}
+h1{
+    text-align: center;
+
+}
+ul{
+
+   list-style-type: none;
+    display:inline;
+}
+li{  padding: 15px;
+    display: inline;
+}
+a{
+
+    color:#ec923e ; 
+    text-decoration: none;
+}
+main{
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+    width: 70vw;
+    color: #ec923e;
+    background-color: black;
+}
+#perfil{
+
+display: inline;
+    width: 50px;
+}
+.container{
+     display: flex;
+}
+#css{
+    width: 70px;
+}
+#htmml{
+    width: 5px;
+}
+#insta{
+    width: 50px;
+}
+#GitHub{
+    width: 50px;
+
+}
+}
