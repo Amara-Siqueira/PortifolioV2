@@ -3,6 +3,30 @@
     margin: 0px;
     padding: 0px;
 }
+@keyframes fundo {
+     0% {
+      background-position: 100% 50%;
+    }
+    50%{background-position: 50% 50%;}
+    100% {
+      background-position: 0% 50%;
+    }
+    
+} 
+header{
+    color:#ec923e ;
+
+    background: linear-gradient(342deg,rgb(253, 169, 90) 8%, rgba(133,82,35,1) 46%, rgba(0,0,0,1) 88%);
+    background-size: 200%  100%;
+    animation-name:fundo;
+    animation-duration:3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
 /*
 cores #E67C16 amarelo
 cores #665B0E marrom
@@ -10,7 +34,17 @@ cores #665B0E marrom
 @media screen and (min-width:0px) and (max-width:1500px) {
     header{
     color:#ec923e ;
-    background-color: black;
+    background-size: 100%  100%;
+    background: linear-gradient(342deg, rgba(96,149,245,1) 3%, rgba(236,146,62,1) 8%, rgba(133,82,35,1) 46%, rgba(0,0,0,1) 88%);
+    
+    background: linear-gradient(342deg,rgb(253, 169, 90) 8%, rgba(133,82,35,1) 46%, rgba(0,0,0,1) 88%);
+    background-size: 200%  100%;
+    animation-name:fundo;
+    animation-duration:3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
 #burguer{
     display: block;
@@ -18,7 +52,7 @@ cores #665B0E marrom
 }
 #burguer:hover{
     cursor: pointer;
-    color: black;
+    color: rgb(0, 0, 0);
     background-color: #755A24;
 }
 h1{
@@ -86,6 +120,21 @@ display: inline;
     width: 50px;
 
 }
+.card{
+    height: 150px;
+    width:100%;
+    background-color: aqua;
+}
+.v-button{
+    
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+
 
 
 
