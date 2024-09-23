@@ -8,6 +8,28 @@
     padding: 0px;
 }
 
+@keyframes entrada {
+
+ 
+    0% {
+      -webkit-transform: translateZ(-80px);
+              transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+  
+  
+  
+
+
+
 /*Pequens telas ate 600px
 celulares de 600px ate 768px
 tablet 768px ate 992px
@@ -56,11 +78,18 @@ p{
     border-radius: 15px;
 }
 #entrar:hover{
+   
      cursor: pointer;
       background-color: #e6b24a; 
 }
 }
-
+.saudo{
+    animation-duration: 3s;
+    animation-name: entrada;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+}
 
 
 @media screen and (min-width:1500px) {
